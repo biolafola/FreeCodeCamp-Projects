@@ -4,4 +4,5 @@ Kindly you can view the hosted version of all the files in the folder structure 
 
 1. Responsive Web Design
 
-    Build a Project Page - https://biolafola.github.io/FreeCodeCamp-Projects/Responsive_Web_Design/Build_a_Tribute_Page/
+    Build a Survey Form - https://biolafola.github.io/FreeCodeCamp-Projects/Responsive_Web_Design/Build_A_Survey_Form
+    Build a Tribute Page - https://biolafola.github.io/FreeCodeCamp-Projects/Responsive_Web_Design/Build_a_Tribute_Page

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <main>
+  
+    <div id = "title-area">
+      <h1 id = "title">Endangered Species Protection Survey Form</h1>
+      <p id = "description">The Earth isnt for us alone! Let's protect the animals.</p>
+    </div>
+    
+    
+    <div id = "container">
+    <form id = "survey-form">
+      
+      <div class = "form-element">
+        <label for= "name" id="name-label"> Name</label>
+        <input id="name" type = "text" name= "fname" placeholder = "Please input your name here" required>
+      </div>
+      
+      <div class = "form-element">
+        <label for= "email" id="email-label"> Email</label>
+        <input id="email"  type = "email" required name= "email"  placeholder = "Provide your Email" required>
+      </div>
+      
+      <div class = "form-element" id = "age">
+        <label for= "number" id="number-label"> Age</label>
+        <input id="number" type = "number" name= "age" min = "8" max = "90"  placeholder = "25">
+      </div>
+      
+      
+      <div class = "form-element" id = "dropdown">
+        <label for= "dropdown-label">What would you like to do?</label>
+        <select id="dropdown">
+          <option value = "donation">Donation</option>
+          <option value = "service-volunteer">Service Volunteer</option>
+          <option value = "raise-awareness">Raise Awareness</option>
+        </select>
+      </div>
+      
+      
+      <div class = "form-element2" id = "checkboxes">   
+        <p class = "form-p">Select your Species of Interest</p>
+  
+        <label for = "Polar-Bears" class="checkbox-label">Polar Bears
+        <input type = "checkbox" id = "Polar-Bears" name = "Species" value = "Polar-Bears">
+         <span class="checkmark"></span>
+         </label>
+  
+        <label for = "Amur-Leopard" class="checkbox-label">Amur Leopard
+        <input type = "checkbox" id = "Amur-Leopard" name = "Species" value = "Amur-Leopard">
+        <span class="checkmark"></span>
+        </label>
+        
+        <label for = "Black-Rhino" class="checkbox-label">Black Rhino
+        <input type = "checkbox" id = "Black-Rhino" name = "Species" value = "Black-Rhino">
+        <span class="checkmark"></span>
+        </label>
+      </div>
+      
+      
+      
+       <div class = "form-element" id = "radio">   
+        <p class = "form-p">Have you been a contributor in the past?</p>
+  
+        <label for = "yes" class="checkbox-label">Yes
+        <input type = "radio" id = "yes" name = "Contributor" value = "yes">
+        <span class="checkmark2"></span>
+        </label>
+  
+        <label for = "no" class="checkbox-label">No
+        <input type = "radio" id = "no" name = "Contributor" value = "no">
+        <span class="checkmark2"></span>
+        </label>
+      </div>
+      
+      
+      <div class = "form-element" id = "text-area">   
+        <label for = "info" id="info-label">Is there any more information you would like us to know?</label>
+        <textarea id = "info" placeholder = "type here"></textarea>
+      </div>
+      
+    <button type="submit" form="survey-form" id="submit" value="Submit">Submit</button>
+    </form>
+    </div>
+  </main>  
+
+      
+</body>
+</html>

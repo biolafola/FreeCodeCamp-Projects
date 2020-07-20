@@ -11,3 +11,5 @@ Kindly you can view the hosted version of all the files in the folder structure 
     Product Landing Page - https://biolafola.github.io/FreeCodeCamp-Projects/Responsive_Web_Design/Product_Landing_page
 	--------------------------------------------------------------------------------------------------------------------------------------------
     Build a Technical Documentation Page - https://biolafola.github.io/FreeCodeCamp-Projects/Responsive_Web_Design/Technical_Documentation_Page
+    
+    

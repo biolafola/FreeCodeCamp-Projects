@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+nav{
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  padding-top: 20px;
+  border-right: 2px solid #a1d2d2;
+}
+
+nav header{
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: .8rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+nav header::after{
+  content:"";
+  display:inline-block;
+  width:100%; 
+  height:100%;
+  border-bottom:1px solid #a1d2d2;
+}
+
+.nav-list{
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li{
+  display: flex;
+  border-bottom: 1px solid #a1d2d2;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #303030;
+  font-size:1rem;
+  margin: 10px 0px 10px 0px;
+  padding-left: 38px;
+}
+
+#main-doc{
+  margin-left: 300px;
+  padding: 30px;
+}
+
+#main-doc header{
+  font-weight: 600;
+  font-size:2rem;
+  line-height: .8rem;
+  margin-bottom:30px;
+  color: #186b6b;
+}
+#main-doc header::after{
+  content:"";
+  display:inline-block;
+  width:100%; 
+  height:100%;
+  border-bottom:1px solid #a1d2d2;
+} 
+
+
+
+.main-section{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #186b6b;
+  margin-bottom:0;
+}
+h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #186b6b;
+  margin-bottom:0;
+  margin-top: 50px;
+}
+
+p~h1{
+  margin-top: 40px;
+}
+
+pre~h1{
+  margin-top: 80px;
+}
+
+table~h1{
+  margin-top: 80px;
+}
+
+p, pre, table{
+  padding-left: 20px;
+}
+
+.codespan{
+  color: #db0000;
+  background-color: #ffeee0;
+}
+
+pre{
+  background-color: #e0ffc7;
+  coor:#3a8200;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #186b6b;
+  color: white;
+}
+
+.my-btn{
+  font-size: 0.9rem;
+  text-decoration: none;
+  padding: 8px;
+  background-color: rgba(24, 107, 107, 0.2);
+  color: #004d4d;
+  border-radius: 3px;
+}
+.my-btn:hover{
+  background-color: #186b6b;
+  color:  white;
+}
+
+P>a{
+  color: #186b6b;
+}
+
+
+@media screen and (max-width: 970px) {
+  nav{
+    width: 100%;
+    height: 269px;
+    position: relative;
+    top: 0;
+    box-shadow: 0px 1px 20px #aaa;
+  }
+  #main-doc{
+    margin: 0;
+    margin-top: 30px;
+  }
+}
